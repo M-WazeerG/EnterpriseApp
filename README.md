@@ -11,7 +11,8 @@ The goal of this model is to represent how the business operates and how the dif
 ----------
 # UML Diagram
 
-<img width="1380" height="1160" alt="Diagram 2026-03-10 09-13-27" src="https://github.com/user-attachments/assets/620fba84-dc01-4afb-adbf-15614b3b3459" />
+<img width="1620" height="1340" alt="uml" src="https://github.com/user-attachments/assets/528bf9ae-e75d-4208-8b3b-f27b325d817a" />
+
 
 
 ----------
@@ -86,6 +87,7 @@ The system must store information about customers so bookings can be created and
 | phoneNumber  | String | Contact phone number                                  |
 | email        | String | Client's email address                                |
 | address      | String | Home address used for pickup if transport is required|
+| nationality      | String | Country of origin or citizenship of the client|
 
 ### Relationships
 
