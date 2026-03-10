@@ -1,0 +1,25 @@
+package za.ac.cput.factory;
+
+import za.ac.cput.domain.Staff;
+import za.ac.cput.util.Helper;
+
+public class StaffFactory {
+    public static Staff createStaff(String staffNumber, String firstName, String lastName, String phoneNumber, String staffEmail, String role) {
+        if (Helper.isNullorEmpty(staffNumber) || Helper.isNullorEmpty(firstName) || Helper.isNullorEmpty(lastName)) {
+            return null;
+        }
+
+        if (!Helper.isValidEmail(staffEmail)){
+            return null;
+        }
+
+        return new Staff.Builder()
+                .setStaffNumber(staffNumber)
+                .setFirstName(firstName)
+                .setLastName(lastName)
+                .setPhoneNumber(phoneNumber)
+                .setStaffEmail(staffEmail)
+                .setRole(role)
+                .build();
+    }
+}
