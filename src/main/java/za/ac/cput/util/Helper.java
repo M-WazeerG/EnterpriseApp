@@ -1,3 +1,8 @@
+/*
+Author: Mogamat Yaseen Kannemeyer
+Student No: 240453182
+*/
+
 package za.ac.cput.util;
 
 import org.apache.commons.validator.routines.EmailValidator;
