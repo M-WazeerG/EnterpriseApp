@@ -9,10 +9,9 @@ import org.apache.commons.validator.routines.EmailValidator;
 
 public class Helper {
 
-    public static boolean isNullorEmpty(String str) {
+    public static boolean isNullOrEmpty(String str) {
         return (str == null) || (str.isEmpty());
     }
-
 
     public static boolean isValidEmail(String email) {
         EmailValidator validator = EmailValidator.getInstance();

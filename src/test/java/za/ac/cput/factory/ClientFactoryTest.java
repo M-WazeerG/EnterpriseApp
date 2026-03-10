@@ -11,8 +11,8 @@ class ClientFactoryTest {
 
     @BeforeEach
     void setup() {
-        client1 = ClientFactory.createClient("80052305","Mogamat Wazeer","Gilbert","wazeergil@gmail.com","0828296448","South Africa");
-        client2 = ClientFactory.createClient("80052306","Mohamed","Salah","mosalah@gmail.com","07494536610","Egypt");
+        client1 = ClientFactory.createClient("80052305","Mogamat Wazeer","Gilbert","wazeergil@gmail.com","0828296448","20 Daisy Street, Claremont, Cape Town, 7708", "South Africa");
+        client2 = ClientFactory.createClient("80052306","Mohamed","Salah","mosalah@gmail.com","07494536610","Protea Hotel Fire & Ice! Cape Town","Egypt");
     }
 
     @Test

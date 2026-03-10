@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ClientRepositoryTest {
     private static IClientRepository repository = ClientRepository.getRepository();
-    private static Client client = ClientFactory.createClient("80052305","Mogamat Wazeer","Gilbert","wazeergil@gmail.com","0828296448","South Africa");
+    private static Client client = ClientFactory.createClient("80052305","Mogamat Wazeer","Gilbert","wazeergil@gmail.com","0828296448","20 Daisy Street, Claremont, Cape Town, 7708","South Africa");
 
     @Test
     void a_createClient() {
@@ -25,8 +25,8 @@ class ClientRepositoryTest {
 
     @Test
     void b_read(){
-        Client read = repository.read(client.getUserId());
-        assertEquals(client.getUserId(), read.getUserId());
+        Client read = repository.read(client.getClientNumber());
+        assertEquals(client.getClientNumber(), read.getClientNumber());
         System.out.println("Client read " + read);
     }
     @Test
@@ -41,7 +41,7 @@ class ClientRepositoryTest {
 
     @Test
     void d_delete(){
-        boolean deleted = repository.delete(client.getUserId());
+        boolean deleted = repository.delete(client.getClientNumber());
         assertTrue(deleted);
         System.out.println("Client deleted " + deleted);
     }

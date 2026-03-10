@@ -10,7 +10,7 @@ import za.ac.cput.util.Helper;
 
 public class StaffFactory {
     public static Staff createStaff(String staffNumber, String firstName, String lastName, String phoneNumber, String staffEmail, String role) {
-        if (Helper.isNullorEmpty(staffNumber) || Helper.isNullorEmpty(firstName) || Helper.isNullorEmpty(lastName)) {
+        if (Helper.isNullOrEmpty(staffNumber) || Helper.isNullOrEmpty(firstName) || Helper.isNullOrEmpty(lastName)) {
             return null;
         }
 

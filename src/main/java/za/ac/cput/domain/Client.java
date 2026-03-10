@@ -3,27 +3,29 @@ package za.ac.cput.domain;
 import java.util.Objects;
 
 public class Client {
-    protected String userId;
+    protected String clientNumber;
     protected String firstName;
     protected String lastName;
     protected String email;
     protected String phoneNumber;
+    protected String address;
     protected String nationality;
 
     private Client(){}
 
     //argument constructor
     public Client(Builder builder) {
-        this.userId = builder.userId;
+        this.clientNumber = builder.clientNumber;
         this.firstName = builder.firstName;
         this.lastName = builder.lastName;
         this.email = builder.email;
         this.phoneNumber = builder.phoneNumber;
+        this.address = builder.address;
         this.nationality = builder.nationality;
     }
 
-    public String getUserId() {
-        return userId;
+    public String getClientNumber() {
+        return clientNumber;
     }
 
     public String getFirstName() {
@@ -42,6 +44,10 @@ public class Client {
         return phoneNumber;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
     public String getNationality() {
         return nationality;
     }
@@ -49,25 +55,27 @@ public class Client {
     @Override
     public String toString() {
         return "Client{" +
-                "userId='" + userId + '\'' +
+                "clientNumber='" + clientNumber + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
+                ", address='" + address + '\'' +
                 ", nationality='" + nationality + '\'' +
                 '}';
     }
 
     public static class Builder {
-        private String userId;
+        private String clientNumber;
         private String firstName;
         private String lastName;
         private String email;
         private String phoneNumber;
+        private String address;
         private String nationality;
 
-        public Builder setUserId(String userId) {
-            this.userId = userId;
+        public Builder setClientNumber(String clientNumber) {
+            this.clientNumber = clientNumber;
             return this;
         }
 
@@ -91,17 +99,23 @@ public class Client {
             return this;
         }
 
+        public Builder setAddress(String address) {
+            this.address = address;
+            return this;
+        }
+
         public Builder setNationality(String nationality) {
             this.nationality = nationality;
             return this;
         }
 
         public Builder copy(Client client) {
-            this.userId = client.getUserId();
+            this.clientNumber = client.getClientNumber();
             this.firstName = client.getFirstName();
             this.lastName = client.getLastName();
             this.email = client.getEmail();
             this.phoneNumber = client.getPhoneNumber();
+            this.address = client.getAddress();
             this.nationality = client.getNationality();
             return this;
         }
