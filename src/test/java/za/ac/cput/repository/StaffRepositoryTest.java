@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class StaffRepositoryTest {
 
     private static IStaffRepository repository = StaffRepository.getRepository();
-    private static Staff staff = StaffFactory.createStaff("240453182", "Yaseen","Kannemeyer","0712345678","240453182@mycput.ac.za","Employee");
+    private static Staff staff = StaffFactory.createStaff("240453182", "Yaseen", "Kannemeyer", "0712345678", "240453182@mycput.ac.za", "Employee");
 
     @Test
     void a_create() {
