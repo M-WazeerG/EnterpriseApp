@@ -38,10 +38,10 @@ public class Equipment {
     @Override
     public String toString(){
 
-        return  "equipmentNumber= '"+ equipmentNumber
-                + " equipmentNamne " + equipmentName
-                + " Condition " + condition
-                + "onHnad" + onHand ;
+        return  "equipmentNumber: " + equipmentNumber
+                + " equipmentName: " + equipmentName
+                + " Condition: " + condition
+                + " onHand: " + onHand ;
     }
 
     public static class Builder{

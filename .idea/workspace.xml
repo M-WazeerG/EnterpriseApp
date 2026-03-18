@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="958919da-d04e-494f-8060-b72f2c0e27d8" name="Changes" comment="Did MY TDD">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="958919da-d04e-494f-8060-b72f2c0e27d8" name="Changes" comment="Finished my project">
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/domain/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/domain/Equipment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
       <updated>1773131690207</updated>
       <workItem from="1773131695160" duration="4736000" />
       <workItem from="1773776629355" duration="4621000" />
-      <workItem from="1773813187837" duration="9594000" />
+      <workItem from="1773813187837" duration="10463000" />
     </task>
     <task id="LOCAL-00001" summary="addep Equiment and EquiupmentRepository classes only">
       <option name="closed" value="true" />
@@ -139,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773820458487</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished my project">
+      <option name="closed" value="true" />
+      <created>1773824850735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773824850735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +166,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="addep Equiment and EquiupmentRepository classes only" />
     <MESSAGE value="Did MY TDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did MY TDD" />
+    <MESSAGE value="Finished my project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished my project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
