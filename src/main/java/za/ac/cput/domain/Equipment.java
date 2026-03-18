@@ -71,6 +71,16 @@ public class Equipment {
             return this;
         }
 
+        public Builder copy(Equipment equipment){
+
+            this.equipmentNumber = equipment.equipmentNumber;
+            this.equipmentName = equipment.equipmentName;
+            this.onHand = equipment.onHand;
+            this.condition = equipment.condition;
+
+            return this;
+        }
+
         public Equipment build (){
             return new Equipment(this);
         }
