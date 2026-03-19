@@ -1,3 +1,8 @@
+/*
+Author: Mogamat Wazeer Gilbert
+Student No: 221374698
+*/
+
 package za.ac.cput.domain;
 
 import java.util.Objects;
