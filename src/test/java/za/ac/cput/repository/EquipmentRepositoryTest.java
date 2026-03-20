@@ -18,7 +18,7 @@ public class EquipmentRepositoryTest {
     private static Equipment equipment = EquipmentFactory.createEquipment(
 
             " E01 ",
-            " Swimsuit ",
+            " Mask ",
             " Good ",
             10
     );
@@ -42,7 +42,7 @@ public class EquipmentRepositoryTest {
     @Test
     void c_update(){
         Equipment newEquipment = new Equipment.Builder().copy(equipment)
-                .setEquipmentName(" dvanced Swimsuit ")
+                .setEquipmentName(" fins ")
                 .setOnHand(20)
                 .build();
         Equipment  updated = repository.update(newEquipment);
