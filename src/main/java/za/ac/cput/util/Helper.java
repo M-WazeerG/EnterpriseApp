@@ -1,6 +1,8 @@
 /*
+Helper.java
 Author: Mogamat Yaseen Kannemeyer
 Student No: 240453182
+Date: 10 March 2026
 */
 
 package za.ac.cput.util;
