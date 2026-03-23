@@ -11,7 +11,7 @@ public class BookingFactory {
                                         String bookingParticipants,
                                         boolean pickupRequired) {
 
-        int bookingNumber = UUID.randomUUID().hashCode(); // simple unique number
+        int bookingNumber = Math.abs(UUID.randomUUID().hashCode());
 
         return new Booking.Builder()
                 .setBookingNumber(bookingNumber)
