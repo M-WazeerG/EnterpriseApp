@@ -3,8 +3,6 @@ Author: Hlabela Tshegofatso Emeritus
 Student No: 22275016
 */
 
-
-
 package za.ac.cput.factory;
 
 import za.ac.cput.domain.Transport;

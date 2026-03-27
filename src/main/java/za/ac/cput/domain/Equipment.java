@@ -5,7 +5,6 @@ Student No: 231285302
 
 package za.ac.cput.domain;
 
-
 public class Equipment {
 
     private String equipmentNumber;

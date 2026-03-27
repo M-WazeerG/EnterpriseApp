@@ -1,6 +1,7 @@
 /*
-Author: Mogamat Wazeer Gilbert
-Student No: 221374698
+IClientRepository.java
+Author: Mogamat Wazeer Gilbert (221374698)
+Date: 16 March 2025
 */
 
 package za.ac.cput.repository;

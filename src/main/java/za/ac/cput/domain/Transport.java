@@ -3,9 +3,6 @@ Author: Hlabela Tshegofatso Emeritus
 Student No: 22275016
 */
 
-
-
-
 package za.ac.cput.domain;
 
 import java.util.Objects;
